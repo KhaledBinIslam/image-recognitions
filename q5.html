@@ -1,0 +1,65 @@
+<!-- 
+QUESTION
+============================================= 
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #con2{
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <button class="btn">Click</button>
+
+
+    <div class="container" id="contt">
+        <div class="inner first">Hello</div>
+        <h2>New heading</h2>
+        <div class="inner third">Goodbye</div>
+    </div>
+
+
+    <div class="container" id="con2">
+        <div class="inner first">Hello</div>
+        <div class="inner second">Come</div>
+        <div class="inner third">Goodbye</div>
+     
+      </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+
+        $(".btn").click (function(){
+            $("#contt").hide('7000');
+        });
+
+        $(".btn").click (function(){
+            $("#con2").show('7000');
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
